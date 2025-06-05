@@ -1,0 +1,31 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        ".cursor/": true,
+        ".flake8": true,
+        ".github/": true,
+        ".gitignore": true,
+        ".isort.cfg": true,
+        ".pre-commit-config.yaml": true,
+        ".vscode/": true,
+        ".zed/": true,
+        "**/__pycache__/": true,
+        "changelog.md": true,
+        "db.sqlite3": true,
+        "loop_todo.md": true,
+        "loop_todone.md": true,
+        "misc_scripts.py": true,
+        "nixpacks.toml": true,
+        "Procfile": true,
+        "pyproject.toml": true,
+        "pyrightconfig.json": true,
+        "README.md": true,
+        "requirements.in": true,
+        "requirements.txt": true
+    }
+}
