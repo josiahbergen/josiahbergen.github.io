@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Bergen and Bergen Associates</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .about-section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        .about-section h2 {
+            color: #2c1810;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            position: relative;
+            padding-bottom: 1rem;
+        }
+
+        .about-section h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 2px;
+            background: linear-gradient(90deg, #d4af37, #b38f2e);
+        }
+
+        .about-section p {
+            color: #444;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .success-stories {
+            margin: 4rem 0;
+        }
+
+        .story-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 4px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            margin-bottom: 2rem;
+            border: 1px solid rgba(212, 175, 55, 0.1);
+        }
+
+        .story-card h3 {
+            color: #2c1810;
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .story-card h3 i {
+            color: #d4af37;
+        }
+
+        .testimonials {
+            margin: 4rem 0;
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 4px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            position: relative;
+            border: 1px solid rgba(212, 175, 55, 0.1);
+        }
+
+        .testimonial-card::before {
+            content: '"';
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            font-size: 4rem;
+            color: #d4af37;
+            opacity: 0.2;
+            font-family: Georgia, serif;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            color: #444;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .testimonial-author {
+            color: #2c1810;
+            font-weight: bold;
+        }
+
+        .testimonial-role {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .expertise-section {
+            margin: 4rem 0;
+        }
+
+        .expertise-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .expertise-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            background: white;
+            border-radius: 4px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .expertise-item i {
+            color: #d4af37;
+            font-size: 1.5rem;
+        }
+
+        @media screen and (max-width: 768px) {
+            .about-section {
+                padding: 1rem;
+            }
+
+            .testimonial-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .expertise-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Bergen and Bergen Associates</div>
+        <div class="tagline">Excellence in Financial & Nonprofit Law</div>
+    </header>
+
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About Us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="about-section">
+            <h2>Our Story</h2>
+            
+            <p>Founded in 2015, Bergen and Bergen Associates has established itself as a leading firm in financial and nonprofit law. Our journey began with a simple mission: to provide exceptional legal counsel to organizations that make a difference in our community.</p>
+            <p class="emphasized">What sets us apart is our deep understanding of both the financial sector and the unique challenges faced by nonprofit organizations.</p>
+
+            <div class="expertise-section">
+                <h2>Areas of Expertise</h2>
+                <div class="expertise-grid">
+                    <div class="expertise-item">
+                        <i class="fas fa-landmark"></i>
+                        <span>Nonprofit Formation & Compliance</span>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Financial Regulations</span>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <span>Tax-Exempt Status</span>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fas fa-balance-scale"></i>
+                        <span>Corporate Governance</span>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fas fa-file-contract"></i>
+                        <span>Contract Negotiation</span>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Risk Management</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="success-stories">
+                <h2>Success Stories</h2>
+                <div class="story-card">
+                    <h3><i class="fas fa-star"></i> BMT Foundation Portfolio Management</h3>
+                    <p>Successfully guided the BMT Foundation through complex SEC regulations and tax-exempt status requirements, enabling them to manage a $50M stock portfolio while maintaining their charitable mission of supporting children's hospitals.</p>
+                </div>
+                <div class="story-card">
+                    <h3><i class="fas fa-star"></i> Financial Institution Compliance</h3>
+                    <p>Led a comprehensive compliance review for a regional financial institution, resulting in streamlined operations and enhanced regulatory standing.</p>
+                </div>
+                <div class="story-card">
+                    <h3><i class="fas fa-star"></i> Nonprofit Merger</h3>
+                    <p>Facilitated the successful merger of two major nonprofit organizations, preserving their missions while creating new efficiencies and expanded service capabilities.</p>
+                </div>
+            </div>
+
+            <div class="testimonials">
+                <h2>Client Testimonials</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"Bergen and Bergen Associates' expertise in both investment law and nonprofit regulations was crucial for our foundation. They helped us navigate the complex intersection of securities law and charitable giving."</p>
+                        <div class="testimonial-author">Barry Melzer</div>
+                        <div class="testimonial-role">Executive Director and Founder<br>BMT Foundation</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"Their understanding of financial regulations and attention to detail helped us navigate complex compliance requirements with confidence. We are very happy with the work they have done for us."</p>
+                        <div class="testimonial-author">Myrtle the Turtle</div>
+                        <div class="testimonial-role">CEO<br>The Stuffy Banking Company</div>
+                    </div>
+                </div>
+                <br>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">I like Bananas.</p>
+                    <div class="testimonial-author">Mucko von Melzer</div>
+                    <div class="testimonial-role">Board Chair<br>BMT Foundation</div>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <h2 class="cta-section-title">Ready to Strengthen Your Organization's Legal Foundation?</h2>
+                <a href="contact.html" class="cta-button">Schedule a Consultation</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        © 2024 Bergen and Bergen Associates. All rights reserved.
+        <div class="disclaimer">This is a joke. Bergen and Bergen Associates is not a real law firm.</div>
+    </footer>
+</body>
+</html> 

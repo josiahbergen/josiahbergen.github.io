@@ -1,0 +1,207 @@
+.about-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.about-section h2 {
+    color: #2c1810;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.about-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(90deg, #d4af37, #b38f2e);
+}
+
+.about-section p {
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.about-section p.emphasized {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #2c1810;
+    line-height: 1.9;
+    padding: 1.5rem;
+    border-left: 4px solid #d4af37;
+    background: linear-gradient(to right, rgba(212, 175, 55, 0.1), transparent);
+    text-align: center;
+}
+
+.success-stories {
+    margin: 4rem 0;
+}
+
+.story-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    margin-bottom: 2rem;
+    border: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.story-card h3 {
+    color: #2c1810;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.story-card h3 i {
+    color: #d4af37;
+}
+
+.testimonials {
+    margin: 4rem 0;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    position: relative;
+    border: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.testimonial-card::before {
+    content: '"';
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 4rem;
+    color: #d4af37;
+    opacity: 0.2;
+    font-family: Georgia, serif;
+}
+
+.testimonial-text {
+    font-style: italic;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    text-align: center !important;
+}
+
+.testimonial-author {
+    color: #2c1810;
+    font-weight: bold;
+}
+
+.testimonial-role {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.expertise-section {
+    margin: 4rem 0;
+}
+
+.expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.expertise-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.expertise-item i {
+    color: #d4af37;
+    font-size: 1.5rem;
+}
+
+.cta-section {
+    text-align: center;
+    margin: 4rem 0;
+    padding: 3rem;
+    background: linear-gradient(rgba(44, 24, 16, 0.9), rgba(44, 24, 16, 0.9)),
+                url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    color: white;
+}
+
+.cta-section h2 {
+    color: #fafafa !important;
+    margin-bottom: 0rem !important;
+}
+
+.cta-section h2::after {
+    background: none !important;
+}
+
+.cta-section p {
+    color: #d4af37 !important;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #d4af37;
+    color: #2c1810;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #c19b2e;
+}
+
+@media screen and (max-width: 768px) {
+    .about-section {
+        padding: 1rem;
+    }
+
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .expertise-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-section {
+        padding: 2rem 1rem;
+    }
+} 
