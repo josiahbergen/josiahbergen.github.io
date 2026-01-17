@@ -1,129 +1,114 @@
-const BOARD_WIDTH = 12;
+const BOARD_WIDTH = 16;
 const BOARD_HEIGHT = 8;
-const CHAR_EMPTY = '·';
-const CHAR_SNAKE = 'O';
-const CHAR_FOOD = 'x';
-const SPEED = 200;
+const CHAR_SHEEP = 'w';
+const CHAR_FLOWER = '"';
+const CHAR_GRASS = '.';
+const CHAR_EMPTY = ' ';
 
-let snake = [];
-let direction = { x: 1, y: 0 };
-let food = null;
-let gameInterval = null;
-let isPlaying = false;
+let sheep = { x: 8, y: 4 };
+let flowers = [];
+let meadow = [];
 let score = 0;
+let isPlaying = false;
 
 const boardElement = document.getElementById('game-board');
 const statusElement = document.getElementById('game-status');
 
 function initGame() {
-    snake = [{ x: 5, y: 5 }, { x: 4, y: 5 }, { x: 3, y: 5 }];
-    direction = { x: 1, y: 0 };
+    // Generate static meadow
+    meadow = [];
+    for (let y = 0; y < BOARD_HEIGHT; y++) {
+        meadow[y] = [];
+        for (let x = 0; x < BOARD_WIDTH; x++) {
+            meadow[y][x] = Math.random() > 0.8 ? CHAR_GRASS : CHAR_EMPTY;
+        }
+    }
+    
+    sheep = { x: Math.floor(BOARD_WIDTH / 2), y: Math.floor(BOARD_HEIGHT / 2) };
+    flowers = [];
     score = 0;
-    placeFood();
+    spawnFlower();
     render();
-    statusElement.textContent = 'use arrows to move';
+    statusElement.textContent = 'use arrows to graze';
     isPlaying = true;
-    if (gameInterval) clearInterval(gameInterval);
-    gameInterval = setInterval(gameLoop, SPEED);
 }
 
-function stopGame(message) {
-    isPlaying = false;
-    clearInterval(gameInterval);
-    statusElement.textContent = message + ' - press space to restart';
-}
-
-function placeFood() {
-    let valid = false;
-    while (!valid) {
-        food = {
-            x: Math.floor(Math.random() * BOARD_WIDTH),
-            y: Math.floor(Math.random() * BOARD_HEIGHT)
-        };
-        valid = !snake.some(segment => segment.x === food.x && segment.y === food.y);
-    }
-}
-
-function gameLoop() {
-    const head = { x: snake[0].x + direction.x, y: snake[0].y + direction.y };
-
-    // Wall collision
-    if (head.x < 0 || head.x >= BOARD_WIDTH || head.y < 0 || head.y >= BOARD_HEIGHT) {
-        stopGame('game over');
-        return;
-    }
-
-    // Self collision
-    if (snake.some(segment => segment.x === head.x && segment.y === head.y)) {
-        stopGame('game over');
-        return;
-    }
-
-    snake.unshift(head);
-
-    if (head.x === food.x && head.y === food.y) {
-        score++;
-        placeFood();
-    } else {
-        snake.pop();
-    }
-
-    render();
+function spawnFlower() {
+    if (flowers.length > 3) return;
+    let x, y;
+    do {
+        x = Math.floor(Math.random() * BOARD_WIDTH);
+        y = Math.floor(Math.random() * BOARD_HEIGHT);
+    } while ((x === sheep.x && y === sheep.y) || flowers.some(f => f.x === x && f.y === y));
+    flowers.push({ x, y });
 }
 
 function render() {
     let output = '';
     for (let y = 0; y < BOARD_HEIGHT; y++) {
         for (let x = 0; x < BOARD_WIDTH; x++) {
-            if (snake.some(s => s.x === x && s.y === y)) {
-                output += CHAR_SNAKE;
-            } else if (food && food.x === x && food.y === y) {
-                output += CHAR_FOOD;
+            let char = '';
+            if (x === sheep.x && y === sheep.y) {
+                char = CHAR_SHEEP;
             } else {
-                output += CHAR_EMPTY;
+                const flower = flowers.find(f => f.x === x && f.y === y);
+                if (flower) {
+                    char = CHAR_FLOWER;
+                } else if (meadow[y][x] === CHAR_GRASS) {
+                    char = `<span class="grass">${CHAR_GRASS}</span>`;
+                } else {
+                    char = CHAR_EMPTY;
+                }
             }
+            output += char + ' ';
         }
         output += '\n';
     }
-    boardElement.textContent = output;
+    boardElement.innerHTML = output;
 }
 
 document.addEventListener('keydown', (e) => {
+    if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'Space'].includes(e.key) || e.code === 'Space') {
+        e.preventDefault();
+    }
+
     if (e.code === 'Space') {
-        if (!isPlaying) {
-            initGame();
-        }
-        e.preventDefault(); // Prevent scrolling
+        initGame();
+        return;
     }
     
     if (!isPlaying) return;
 
-    switch (e.key) {
-        case 'ArrowUp':
-            if (direction.y === 0) direction = { x: 0, y: -1 };
-            break;
-        case 'ArrowDown':
-            if (direction.y === 0) direction = { x: 0, y: 1 };
-            break;
-        case 'ArrowLeft':
-            if (direction.x === 0) direction = { x: -1, y: 0 };
-            break;
-        case 'ArrowRight':
-            if (direction.x === 0) direction = { x: 1, y: 0 };
-            break;
+    let newPos = { ...sheep };
+    if (e.key === 'ArrowUp') newPos.y--;
+    if (e.key === 'ArrowDown') newPos.y++;
+    if (e.key === 'ArrowLeft') newPos.x--;
+    if (e.key === 'ArrowRight') newPos.x++;
+
+    // Boundary check
+    if (newPos.x >= 0 && newPos.x < BOARD_WIDTH && newPos.y >= 0 && newPos.y < BOARD_HEIGHT) {
+        sheep = newPos;
+        statusElement.textContent = 'use arrows to graze';
+
+        // Eat flower
+        const flowerIndex = flowers.findIndex(f => f.x === sheep.x && f.y === sheep.y);
+        if (flowerIndex !== -1) {
+            flowers.splice(flowerIndex, 1);
+            score++;
+            statusElement.textContent = 'baaa';
+            spawnFlower();
+        }
+
+        // Randomly spawn more flowers
+        if (Math.random() > 0.95) spawnFlower();
+
+        render();
     }
 });
 
-// Initial render of empty board
+// Initial state
 function initialRender() {
-    let output = '';
-    for (let y = 0; y < BOARD_HEIGHT; y++) {
-        for (let x = 0; x < BOARD_WIDTH; x++) {
-            output += CHAR_EMPTY;
-        }
-        output += '\n';
-    }
-    boardElement.textContent = output;
+    initGame();
 }
 
 initialRender();
