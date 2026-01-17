@@ -27,5 +27,6 @@
         "README.md": true,
         "requirements.in": true,
         "requirements.txt": true
-    }
+    },
+    "djlint.showInstallError": false
 }
