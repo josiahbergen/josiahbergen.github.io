@@ -3,9 +3,10 @@
         "**/.git": true,
         "**/.svn": true,
         "**/.hg": true,
-        "**/CVS": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
+        "**/__pycache__": true,
+        "**/CVS": true,
         ".cursor/": true,
         ".flake8": true,
         ".github/": true,
@@ -28,5 +29,6 @@
         "requirements.in": true,
         "requirements.txt": true
     },
-    "djlint.showInstallError": false
+    "djlint.showInstallError": false,
+    "hide-files.files": []
 }

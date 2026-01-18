@@ -106,6 +106,20 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
+// Check if user is on mobile device
+function isMobile() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) 
+        || (window.innerWidth <= 768);
+}
+
+// Hide game on mobile
+if (isMobile()) {
+    const gameWrapper = document.querySelector('.game-wrapper');
+    if (gameWrapper) {
+        gameWrapper.style.display = 'none';
+    }
+}
+
 // Initial state
 function initialRender() {
     initGame();
