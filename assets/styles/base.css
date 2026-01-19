@@ -104,6 +104,9 @@ footer {
         padding: 1.5rem;
         padding-bottom: 2.5rem;
         font-size: 0.9rem;
+        overflow: auto;
+        margin-bottom: 3rem;
+
     }
 
     footer {
