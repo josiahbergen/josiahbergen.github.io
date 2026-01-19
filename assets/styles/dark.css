@@ -1,0 +1,22 @@
+body.dark-mode {
+    background: #1e2020;
+    color: #eae5dd;
+}
+
+body.dark-mode a { color: #eae5dd; }
+
+body.dark-mode footer {
+    background: #303333;
+    color: #aba294;
+    border-top: 1px solid #c0b8ac;
+}
+
+body.dark-mode .separator { color: #c0b8ac; }
+
+body.dark-mode .light { color: #aba294; }
+
+body.dark-mode .tag {
+    color: #aba294;
+    background: #303333;
+    border: 1px solid #c0b8ac;
+}
