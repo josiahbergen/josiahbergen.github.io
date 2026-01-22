@@ -1,0 +1,545 @@
+{
+  "title": "TWU Main Cafeteria",
+  "weeks": [
+    {
+      "week": 1,
+      "dates": [
+        "2025-09-01/2025-09-05",
+        "2025-10-06/2025-10-10",
+        "2025-11-10/2025-11-14",
+        "2025-12-15/2025-12-19"
+      ],
+      "lunch": {
+        "monday": {
+          "chefsFeature": "Beef Carving Station, Artichoke, Spinach & Rice Casserole",
+          "chefsFeatureSides": "Rosemary Roasted Potato, Green Beans",
+          "global": "Basa with Artichoke Caponata",
+          "globalSides": "Rosemary Roasted Potato, Green Beans",
+          "southAsian": "Aloo Gobi",
+          "southAsianSides": "Dahl, Rice, Naan",
+          "asian": "General Tso's Chicken, Chick N Strips",
+          "asianSides": "Jasmine Rice"
+        },
+        "tuesday": {
+          "chefsFeature": "Beef Pho with Rice Noodle",
+          "chefsFeatureSides": "Sprouts, Lime Thai Basil Cilantro, Hoisin, Sambal Sriracha",
+          "global": "Kofta (Turkish Meatballs)",
+          "globalSides": "Turkish Rice, Hummus",
+          "southAsian": "Chicken Briyani, Baked Gobi Manchurian, Creamy Potato Curry",
+          "southAsianSides": "Naan",
+          "asian": "Braised Korean Pork Bowl",
+          "asianSides": "Baby Bok Choy, Korean Spiced Rice Noodle, Rice"
+        },
+        "wednesday": {
+          "chefsFeature": "Pesto Roasted Turkey, Pesto Tofu",
+          "chefsFeatureSides": "Gravy, Spicy Green Bean, Roasted Potato, Arugula Salad",
+          "global": "Spicy Eggplant with Chickpeas",
+          "globalSides": "Persian Rice (Chelo), Flatbread",
+          "southAsian": "Potato Vindaloo, Vegan Chicken Curry",
+          "southAsianSides": "Rice",
+          "asian": "Red Thai Coconut Curry Chicken, Tofu Curry",
+          "asianSides": "Jasmine Rice, Bok Choy"
+        },
+        "thursday": {
+          "chefsFeature": "Classic Grilled Chicken, Vegan Chicken Fillets",
+          "chefsFeatureSides": "Caesar Salad, Garlic Stick, Pilaf Rice",
+          "global": "French Beef Stew",
+          "globalSides": "Steamed Parsley, Potato, Dinner Rolls",
+          "southAsian": "Eggplant Curry, Lentil Curry",
+          "southAsianSides": "Rice, Naan",
+          "asian": "Chicken Teriyaki with Bean Sprouts",
+          "asianSides": "Rice, Condiments"
+        },
+        "friday": {
+          "chefsFeature": "Fish Tacos, Fried Vegan Chicken Fingers",
+          "chefsFeatureSides": "Lemon Rice, Mango Salsa, Slaw",
+          "global": "Mujadara (Lentils & Rice with Caramelized Onions)",
+          "globalSides": "Cucumber Yogurt Salad, Flatbread",
+          "southAsian": "Kidney Bean Curry, Tofu Cauliflower Curry",
+          "southAsianSides": "Basmati Rice, Naan",
+          "asian": "Beef & Broccoli Stir Fry, Vegetable Stir Fry with Tofu",
+          "asianSides": "Steamed Rice"
+        }
+      },
+      "dinner": {
+        "monday": {
+          "chefsFeature": "Roast Pork Shoulder with Pineapple BBQ, Cauliflower & Quinoa Bowl",
+          "chefsFeatureSides": "Country Kitchen Veg, Herbed Potatoes, Rice Pilaf, Seasoned Broccoli",
+          "global": "Pineapple BBQ, Cauliflower & Quinoa Bowl",
+          "globalSides": "Rice Pilaf, Seasoned Broccoli",
+          "southAsian": "Vegetable Korma Saag, Naan, Rice",
+          "asian": "Chili Lime Shrimp Pad Thai, Chili Lime Tofu",
+          "asianSides": "Rice, Noodles"
+        },
+        "tuesday": {
+          "chefsFeature": "Braised Beef Brisket, Roasted Vegetables & Cous Cous Stuffed Peppers",
+          "chefsFeatureSides": "Gravy, Mashed Potatoes",
+          "global": "Joojeh (Saffron Chicken)",
+          "globalSides": "Persian Rice with Roasted Tomatoes, Salad, Shirazi (Cucumber, Tomato & Onion Salad)",
+          "southAsian": "Mango Chicken, Indian Lentil & Egg Curry, Aloo Mutter",
+          "southAsianSides": "Naan, Rice",
+          "asian": "Hunan Noodles with Spicy Ground Pork, Spicy Veggie Ground"
+        },
+        "wednesday": {
+          "chefsFeature": "Falafel Brown Rice Bowl with Falafel Balls",
+          "chefsFeatureSides": "Vegetable Brown Rice, Parsley Tahini Dressing, Tomato Salad",
+          "southAsian": "Chicken Masala, Lentil Tangine, Indian Style Potatoes",
+          "southAsianSides": "Naan, Rice, Chaat Bar",
+          "asian": "Pork & KimChi Stew, Tofu & KimChi Stew",
+          "asianSides": "Steam Rice Seaweed Salad"
+        },
+        "thursday": {
+          "chefsFeature": "Honey Roasted Pork Loin, Tofu & Carrot Osso Bucco with Vegan Polenta",
+          "chefsFeatureSides": "Roasted Red Potatoes, Brown Sugar Squash",
+          "global": "Chicken Shawarma",
+          "globalSides": "Saffron Rice, Hummus, Pita, Tomatoes, Cucumber & Lettuce",
+          "southAsian": "Chili Chicken, Kootu, Korma Tofu with Cauliflower & Spinach",
+          "southAsianSides": "Rice, Naan",
+          "asian": "Imperial Stir-fried rice, Vegetable Stir-fried Rice",
+          "asianSides": "Spring Rolls with Dip"
+        },
+        "friday": {
+          "chefsFeature": "Pierogies, Italian Sausage Ragout, Spiced Wild Rice & Chickpea Mash Bowl",
+          "chefsFeatureSides": "Cabbage Roll Casserole",
+          "global": "Pabellon Criollo, Venezuela Braised Beef",
+          "globalSides": "Rice Black Beans",
+          "southAsian": "Tandoori Chicken, Sambar, Vegan Chickpea Tikka Masala",
+          "southAsianSides": "Rice",
+          "asian": "Beef Rendeng, Tofu Rendeng",
+          "asianSides": "Rice"
+        },
+        "saturday": {
+          "chefsFeature": "Carved Roast Turkey, Roasted Potatoes, Root Vegetables, Gravy & Cranberry, Potato Rolls, Wild Rice Dressing with Tofu"
+        }
+      }
+    },
+    {
+      "week": 2,
+      "dates": [
+        "2025-10-06/2025-10-10",
+        "2025-10-13/2025-10-17",
+        "2025-10-20/2025-10-24",
+        "2025-10-27/2025-10-31"
+      ],
+      "lunch": {
+        "monday": {
+          "chefsFeature": "Croatian Basa Brudet",
+          "chefsFeatureSides": "Steamed Potato & Kale w/ Garlic, Dill Carrots",
+          "global": "Corn with Feta & Jalapenos, Sriracha Tofu",
+          "globalSides": "Salsa Roja, Avocado Crema",
+          "southAsian": "Beef Taco Station, Veggie Ground Tacos",
+          "southAsianSides": "Full Condiments, Aztec Corn, Mexi Brown Rice",
+          "asian": "Bangers & Mash",
+          "asianSides": "Mashed Potatoes, Buttery Peas & Onion Gravyins"
+        },
+        "tuesday": {
+          "chefsFeature": "Mango Chicken, Aloo Mutter, Currry Lentil Vegetable Pie",
+          "chefsFeatureSides": "Naan, Rice",
+          "southAsian": "Pork Szechaun Stir-fry, Crispy Szechuan Cauliflower",
+          "southAsianSides": "Jasmine Rice",
+          "asian": "Tex Mex Chicken Breast Bowl, Tex Mex Vegan Chix",
+          "asianSides": "Yellow Rice, Sofrito Black Beans, Aztec Corn, Guacamole & Pico"
+        },
+        "wednesday": {
+          "chefsFeature": "Kuku Sabzi (Herb Fritattata)",
+          "chefsFeatureSides": "Pita, Yogurt",
+          "southAsian": "Chicken Masala, Lentil Tangine, Potato, Paneer & Pea Curry",
+          "southAsianSides": "Naan, Rice",
+          "asian": "Classic Individual Chicken Pot Pies, Veggie Ground Pot Pies",
+          "asianSides": "Condiments Bar"
+        },
+        "thursday": {
+          "chefsFeature": "Russian Beef Stroganoff",
+          "southAsian": "Chili Chicken, Kootu, Squash & Eggplant Rogan Josh",
+          "southAsianSides": "Rice",
+          "asian": "Lemon Coconut Curry Chicken, Egg Noodles & Vegan Chicken"
+        },
+        "friday": {
+          "chefsFeature": "Chicken Marbella, Roasted Vegetable Medley, Portobello Mushroom Stroganoff",
+          "chefsFeatureSides": "Seasoned Baby Potatoes",
+          "global": "Sabzi Polo (Herb Rice with White Fish), Yogurt, Salad Shirazi",
+          "southAsian": "Chicken Briyani, Vegetable Briyani, Pakora Curry",
+          "southAsianSides": "Naan",
+          "asian": "Beef Ramen Noodle Bowl",
+          "asianSides": "HB Eggs, Bok Choy & Condiments"
+        }
+      },
+      "dinner": {
+        "monday": {
+          "chefsFeature": "Shepherd's Pie, Vegan Shepherd's Pie",
+          "chefsFeatureSides": "Gravy, Sunrise Mixed Vegetables",
+          "global": "Swedish Meatballs",
+          "globalSides": "Mashed Potatoes, Vegetable Medley",
+          "southAsian": "Chicken Vindaloo, Mutter Mushroom",
+          "southAsianSides": "Rice, Naan",
+          "asian": "Spicy Shrimp Stir-fry, Spicy Crispy Tofu",
+          "asianSides": "Steamed Rice"
+        },
+        "tuesday": {
+          "chefsFeature": "Maple Chili Glazed Pork Loin, Veggie Ground Chili",
+          "chefsFeatureSides": "Brown Sugar Glazed Sweet Potatoes, Ginger Green Beans",
+          "global": "Khoresh Bademjam (Eggplant Stew with Beef)",
+          "globalSides": "Persian Rice, Salad Shirazi",
+          "southAsian": "Roasted Curry Chicken Breast, Vegetable Briyani, Tomato, Spinach & Potato Dal",
+          "southAsianSides": "Naan",
+          "asian": "Chicken Teriyaki Stir-fry, Vegan Chicken Teriyaki Stir-fry",
+          "asianSides": "Rice"
+        },
+        "wednesday": {
+          "chefsFeature": "Chicken Curry, Tofu Gao Curry, Creamy Lentil & Split Pea Curry",
+          "chefsFeatureSides": "Rice, Naan",
+          "global": "Irish Lamb Stew",
+          "globalSides": "Biscuits",
+          "southAsian": "Chicken Kurma, Vegan Bean Curry, Vegetable Curry",
+          "southAsianSides": "Rice, Naan",
+          "asian": "Beef Lo Mein, Vegetable Lo Mein",
+          "asianSides": "Soy Roasted Tofu"
+        },
+        "thursday": {
+          "chefsFeature": "Herb Crusted Beef Roast, Baked Portobello Parm",
+          "chefsFeatureSides": "Baked Potatoes with Condiments, Peas & Carrots, Gravy",
+          "global": "Chicken Coq au Vin",
+          "globalSides": "Mashed Potato, Garlic Green Bean",
+          "southAsian": "Thyme & Lime Chicken, Black Bean Chili Mac",
+          "southAsianSides": "Cilantro Basmati Rice, Fresh Vegetable Medley",
+          "asian": "Hoi Sin Pork Stir-fry, Vegan Chicken Patties",
+          "asianSides": "Rice"
+        },
+        "friday": {
+          "chefsFeature": "Butter Chicken, Butter Paneer",
+          "chefsFeatureSides": "Naan, Rice",
+          "global": "Roasted Fish with Tahini Sauce",
+          "globalSides": "Persian Rice, Tomato Cucumber Salad",
+          "southAsian": "Chaat Bar",
+          "asian": "Spicy Pork Bibimbap, Tofu Bibimbap",
+          "asianSides": "Fried Egg, Kim Chi, Pickled Vegetable, Rice"
+        }
+      }
+    },
+    {
+      "week": 3,
+      "dates": [
+        "2025-11-03/2025-11-07",
+        "2025-11-10/2025-11-14",
+        "2025-11-17/2025-11-21",
+        "2025-11-24/2025-11-28"
+      ],
+      "lunch": {
+        "monday": {
+          "chefsFeature": "Garlic Chicken Thighs, Eggplant Parmesan",
+          "chefsFeatureSides": "Rice Pilaf, Roasted Vegetables",
+          "global": "Roasted Leg of Lamb",
+          "globalSides": "Roasted Potato, Mint Gravy, Roasted Vegetable",
+          "southAsian": "Chicken Vindaloo, Mutter Mushroom, Aloo Baingan",
+          "southAsianSides": "Rice, Naan",
+          "asian": "Shoyu Ramen with Pork Char Siu, Tofu Char Siu",
+          "asianSides": "Broccoli, Corn & Bean Sprouts"
+        },
+        "tuesday": {
+          "chefsFeature": "Jerk Chicken, Jerk Tofu",
+          "chefsFeatureSides": "Berbere Spiced Beans, Joloff Rice, Sauteed Spinach",
+          "global": "Khoresh Karafs (Celery Stew with Beef)",
+          "globalSides": "Persian Rice, Pita",
+          "southAsian": "Chicken Curry, Vegetable Briyani, Aloo Patta Gobhi",
+          "southAsianSides": "Naan",
+          "asian": "Vietnamese Style Pork Chops",
+          "asianSides": "Rice, Condiments"
+        },
+        "wednesday": {
+          "chefsFeature": "BBQ Pork Butt Roast, Chili Lime Jackfruit",
+          "chefsFeatureSides": "BBQ Gravy, Butter Buns, Corn, Spanish Rice",
+          "global": "Beef Bourguignon, Tofu Bourguignon",
+          "globalSides": "Egg Noodles",
+          "southAsian": "Chicken Kurma, Vegan Bean Curry, Vegetable Curry",
+          "southAsianSides": "Rice, Naan",
+          "asian": "Chicken Adobo",
+          "asianSides": "Garlic Rice, Green Beans"
+        },
+        "thursday": {
+          "chefsFeature": "Seafood Alfredo with Fettucine, Tomato & Spinach Bowl",
+          "chefsFeatureSides": "Condiments Station, Bread Sticks, Chopped Salad with Vinaigrette",
+          "global": "Chicken Paprika",
+          "globalSides": "Steamed Parsley Potatoes, Braised Red Cabbage",
+          "southAsian": "Tofu Gao Curry, Dal Palak, Halal Chicken Curry",
+          "southAsianSides": "Rice, Naan",
+          "asian": "Beef & Mushroom Udon Stir-fry, Tofu & Mushroom Stir-fry",
+          "asianSides": "Condiment Station"
+        },
+        "friday": {
+          "chefsFeature": "Butter Chicken, Shahi Paneer",
+          "chefsFeatureSides": "Naan, Rice",
+          "global": "Basma (Layered Beef & Vegetable Stew)",
+          "globalSides": "Pickled Vegetables, Flatbread",
+          "southAsian": "Chaat Bar",
+          "asian": "Hunan Noodles with Spicy Ground Pork, Spicy Veggie Meatballs",
+          "asianSides": "Sauteed Vegetables"
+        }
+      },
+      "dinner": {
+        "monday": {
+          "chefsFeature": "Sockeye Salmon Fillet, Roasted Maple Tofu",
+          "chefsFeatureSides": "Dijon Cream Sauce, Wild Rice Medley, Mixed Fresh Vegetables",
+          "global": "Tumeric Rice with Meatballs",
+          "globalSides": "Tomato & Cumber Salad, Mast-o Khiar",
+          "southAsian": "Coconut Curry Chicken, Lentil Coconut Curry, Garlic Tofu",
+          "southAsianSides": "Rice, Naan",
+          "asian": "Chicken & Broccoli Stir-fry, Fried Vegan Chick Patties",
+          "asianSides": "Rice"
+        },
+        "tuesday": {
+          "chefsFeature": "Pot Roast, Mushroom Chili Baked Potato",
+          "chefsFeatureSides": "Gravy, Rolls, Yukon Gold Mashed Potatoes, Parsley Baby Carrot",
+          "global": "Sancocho (Latin American Stew)",
+          "globalSides": "Steam Rice, Crusty Dinner Rolls",
+          "southAsian": "Tandoori Chicken, Tandoori Tofu",
+          "southAsianSides": "Moong Dal, Rice, Naan",
+          "asian": "Ground Pork Lettuce Wraps",
+          "asianSides": "Rice & Condiments Station"
+        },
+        "wednesday": {
+          "chefsFeature": "Chicken Cacciatora, Linguine, Mushroom Cacciatora",
+          "chefsFeatureSides": "Zucchini & Tomatoes",
+          "global": "Dizi (Persian Lamb & Chickpea Stew)",
+          "globalSides": "Pita, Mast-o Khiar",
+          "southAsian": "Garlic Chicken, Eggplant Bhurta, Chili Tofu",
+          "southAsianSides": "Rice, Naan",
+          "asian": "Mee Goreng, Tofu Goreng",
+          "asianSides": "Rice"
+        },
+        "thursday": {
+          "chefsFeature": "Honey Glazed Ham",
+          "chefsFeatureSides": "Scalloped Potatoes, Peas & Carrots, Sweet Ham Gravy, Rolls, Tabouleh with Garbanzo Beans",
+          "global": "Harissa Armenian Farro & Chicken",
+          "globalSides": "Pita, Pickled Vegetables",
+          "southAsian": "Chicken Curry, Vegetable Briyani, Methi Paneer",
+          "southAsianSides": "Naan",
+          "asian": "Sesame Chicken Noodle Bowl, Sesame Tofu Noodle Bowl"
+        },
+        "friday": {
+          "chefsFeature": "Roasted Herb Chicken Thigh, Vegetable Paella Plate",
+          "chefsFeatureSides": "Cheddar Cheese Mashed Potato, Roasted Broccoli",
+          "global": "Arican Beef Pilau",
+          "globalSides": "Tomato Cucumber & Onion Salad",
+          "southAsian": "Chicken Tikka Masala, Aloo Gobhi Pulao Rice, Madras Cabbage & Peas, Naan",
+          "asian": "Shrimp Pad Thai, Tofu Pad Thai, Thick Rice Noodles, Condiments"
+        }
+      }
+    },
+    {
+      "week": 4,
+      "dates": [
+        "2025-12-01/2025-12-05",
+        "2025-12-08/2025-12-12",
+        "2025-12-15/2025-12-19"
+      ],
+      "lunch": {
+        "monday": {
+          "chefsFeature": "BBQ Pork Mac N Cheese, Spinach & Cheese Enchiladas",
+          "chefsFeatureSides": "Breadsticks, Green Peas, Condiments Station",
+          "global": "Lamb Shawarma",
+          "globalSides": "Saffron Rice, Hummus, Pita, Tomato, Lettuce, Cucumber",
+          "southAsian": "Coconut Curry Chicken, Lentil Coconut Curry, Vegetable Curry",
+          "southAsianSides": "Rice, Naan",
+          "asian": "Ginger Beef Stir-Fry, Vegan Chix Strips",
+          "asianSides": "Jasmine Rice"
+        },
+        "tuesday": {
+          "chefsFeature": "Blackened Tilapia Fish Tacos, Blackened Veg Chix Taco",
+          "chefsFeatureSides": "Mango Salsa, Slaw, Spanish Rice, Shredded Lettuce, Cheese",
+          "global": "Peri Peri Chicken",
+          "globalSides": "Rosated Potato Wedges, Vegetables",
+          "southAsian": "Tandoori Chicken, Tandoori Tofu, Aloo Palak",
+          "southAsianSides": "Rice, Naan",
+          "asian": "Mongolian Pork, Bok Choy Stir-fry, Chili Lime Jackfruit Plate",
+          "asianSides": "Jasmine Rice"
+        },
+        "wednesday": {
+          "chefsFeature": "BBQ Pork Ribs, Corn Bread, BBQ Tofu",
+          "chefsFeatureSides": "Potato Salad, Corn on the Cob",
+          "global": "Shrimp And Chorizo Jambalaya",
+          "globalSides": "Mixed Green Salad",
+          "southAsian": "Garlic Chicken, Eggplant Bhurta, Achari Bhindi (Okra)",
+          "southAsianSides": "Rice, Naan, Chaat Bar",
+          "asian": "Asian Style Roasted Pork Loin",
+          "asianSides": "Rice, Bok Choy, Condiments"
+        },
+        "thursday": {
+          "chefsFeature": "Roasted Herb & Garlic Chicken Breast, Herb & Garlic Vegan Chick",
+          "chefsFeatureSides": "Roasted Tomato Jam, Rice Pilaf, Mixed Fresh Vegetables",
+          "global": "Kalam Polo (Cabbage Rice with Meatballs)",
+          "globalSides": "Yogurt, Salad Shirazi",
+          "southAsian": "Vegetable Briyani, Chole Masala, Halal Chicken Curry",
+          "southAsianSides": "Naan",
+          "asian": "Kung Pao Chicken, Kung Pao Tofu",
+          "asianSides": "Jasmine Rice"
+        },
+        "friday": {
+          "chefsFeature": "Cod Fish & Chips, Bean & Cheese \"Nachos\"",
+          "chefsFeatureSides": "Coleslaw, Lemon Wedges, Ketchup",
+          "global": "Pollo al Ajillo (Drumsticks)",
+          "globalSides": "Spanish Roasted Potatoes, Vegetable Medley",
+          "southAsian": "Chicken Tikka Masala, Tawa Paneer",
+          "southAsianSides": "Pulao Rice, Madras Cabbage & Peas, Naan",
+          "asian": "Pollo al Ajillo (Drumsticks)",
+          "asianSides": "Spanish Roasted Potatoes, Vegetable Medley"
+        }
+      },
+      "dinner": {
+        "monday": {
+          "chefsFeature": "Greek Lemon Chicken",
+          "chefsFeatureSides": "Roasted Greek Potato Wedges, Greek Salad, Pita Bread & Tzatziki",
+          "global": "Beef Kafta",
+          "globalSides": "Med. Greens Mix, Tzatziki, Pita",
+          "southAsian": "Roasted Curried Chicken, Coconut Spinach Curry, Paneer Masala",
+          "southAsianSides": "Rice, Naan",
+          "asian": "General Tao's Pork, Fried Tofu",
+          "asianSides": "Jasmine Rice"
+        },
+        "tuesday": {
+          "chefsFeature": "Turkey Breast",
+          "chefsFeatureSides": "Country Kitchen Vegetables, Cranberry Sauce & Gravy, Whipped Potatoes, Rolls",
+          "global": "Firecracker Salmon",
+          "globalSides": "Quinoa & Peas",
+          "southAsian": "Chicken Vindaloo, Potato & Pea Vindaloo, Korma Tofu",
+          "southAsianSides": "Rice, Naan",
+          "asian": "Grilled Lemongrass Chicken",
+          "asianSides": "Bok Choy, Rice"
+        },
+        "wednesday": {
+          "chefsFeature": "Crispy Baked Pork Chops, Penne with Sweet Pea Pesto",
+          "chefsFeatureSides": "Baked Potato, Vegetable Medley, Apple Sauce & Mushroom Cream",
+          "global": "Meatballs & Spaghetti",
+          "globalSides": "Caesar and Garlic Stick",
+          "southAsian": "Chicken Curry, Tofu 65, Chana Saag",
+          "southAsianSides": "Rice, Naan",
+          "asian": "Honey Garlic Chicken, Honey Garlic Tofu",
+          "asianSides": "Jasmine Rice"
+        },
+        "thursday": {
+          "chefsFeature": "Smoky Slow Roasted Beef Brisket",
+          "chefsFeatureSides": "Maple Baked Beans, Corn Bread, Green Beans, Gravy",
+          "global": "Saj Ichi (Stir-fried Beef with Vegetables)",
+          "globalSides": "Cous Cous, Herb Salad",
+          "southAsian": "Chicken Rogan Josh, Chickpea Curry, Khatte Meethe Baingan",
+          "southAsianSides": "Rice, Naan",
+          "asian": "Chicken 65, Tofu 65",
+          "asianSides": "Rice"
+        },
+        "friday": {
+          "chefsFeature": "Homestyle Lasagna, Vegetable Lasagna",
+          "chefsFeatureSides": "Garlic Bread Sticks, Caesar Salad, Condiments",
+          "global": "Ukranian Braised Pork",
+          "globalSides": "Mashed Potato, Dinner Roll",
+          "southAsian": "Chicken Vindaloo, Lentil Curry, Saag Tofu",
+          "southAsianSides": "Rice, Naan",
+          "asian": "Beef & Broccoli Stir-fry, Black Bean Stir-fry",
+          "asianSides": "Rice"
+        }
+      }
+    },
+    {
+      "week": 5,
+      "dates": [],
+      "lunch": {
+        "monday": {
+          "chefsFeature": "Slow-roasted Beef, Farro Stuffed Pepper",
+          "chefsFeatureSides": "Peppercorn Sauce, Whipped Potatoes, Roasted Broccoli, Potato Rolls",
+          "global": "Lemon Oregano Salmon, Tomato, Olive & Feta Topping, Quinoa, Mixed Vegetables",
+          "southAsian": "Roasted Curried Chicken, Coconut Spinach Curry",
+          "southAsianSides": "Dal, Rice, Naan",
+          "asian": "5 Spice Roasted Turkey Thigh, 5 Spice Tofu",
+          "asianSides": "Noodles, Sauce"
+        },
+        "tuesday": {
+          "chefsFeature": "Smokehouse Beef Chili, Veggie Chili",
+          "chefsFeatureSides": "Potato Wedges, Steamed Corn, Condiments",
+          "global": "Adas Polo (Lentil Rice) with Ground Beef",
+          "globalSides": "Yogurt, Salad Shirazi",
+          "southAsian": "Potato & Pea Vindaloo, Punjabi Dum Aloo, Halal Chicken Curry",
+          "southAsianSides": "Rice, Naan",
+          "asian": "Vietnamese Caramelized Chicken, Vegan Chicken",
+          "asianSides": "Sticky Rice"
+        },
+        "wednesday": {
+          "chefsFeature": "Pork Shoulder Pot Roast, Broccoli & Cheddar Quiche",
+          "chefsFeatureSides": "Grilled Apples, Roasted Cauliflower Rice, Roasted Whole Potatoes, Pork Gravy",
+          "global": "Pique Macho (Beef Diced)",
+          "globalSides": "French Fries, Hard Boiled Eggs",
+          "southAsian": "Chicken Saag, Tofu Curry, Kale Garlic Dal",
+          "southAsianSides": "Rice, Naan",
+          "asian": "Szechuan Chicken Stir-fry, Tofu Stir-fry",
+          "asianSides": "Noodles"
+        },
+        "thursday": {
+          "chefsFeature": "Sun-dried Tomato & Lemon Basa",
+          "chefsFeatureSides": "Herbed Basmati Rice, Braised Cabbage, Cream Sauce, Lemon Wedges",
+          "global": "Kalam Polo (Cabbage Rice with Meatballs)",
+          "globalSides": "Yogurt, Salad Shirazi",
+          "southAsian": "Chicken Rogan Josh, Chickpea Curry, Dahi Aloo",
+          "southAsianSides": "Rice, Naan",
+          "asian": "Beef Bulgogi",
+          "asianSides": "Kim Chi, Rice, Sesame Seeds"
+        },
+        "friday": {
+          "chefsFeature": "Butter Chicken, Butter Paneer",
+          "chefsFeatureSides": "Rice, Naan, Chaat Bar",
+          "global": "Chicken Musakhan (Roasted Chicken with Onions & Sumac)",
+          "globalSides": "Rice Pilaf & Herb Salad",
+          "southAsian": "Chaat Bar",
+          "asian": "Beef Stir-fry with Peppers, Mushrooms & Onions",
+          "asianSides": "Black Bean Sauce, Rice, Tofu"
+        }
+      },
+      "dinner": {
+        "monday": {
+          "chefsFeature": "Baked Penne with Italian Sausage, Vegan Italian Sausage Bake",
+          "chefsFeatureSides": "Breadsticks, Chopped Lettuce & Vegetable Salad, Mixed Vegetables",
+          "global": "Saffron Roasted Chicken Tagine (Thighs)",
+          "globalSides": "Cous Cous, Vegetables",
+          "southAsian": "Palak Chicken, Chana Masala, Saag",
+          "southAsianSides": "Naan, Rice",
+          "asian": "Shrimp Fried Rice, Egg Fried Rice",
+          "asianSides": "Condiments"
+        },
+        "tuesday": {
+          "chefsFeature": "Honey Roasted Pork Loin, Stuffed Portobellos",
+          "chefsFeatureSides": "Roast Potatoes, Baked Beans, Corn Ragout, Honey Glaze Gravy, Apple Sauce",
+          "global": "Beef Hard Taco Bar",
+          "southAsian": "Mango Chicken, Aloo Mutter, Gobhi Corn Masala",
+          "southAsianSides": "Naan, Rice, Chaat Bar",
+          "asian": "Korean BBQ Chicken, Chapchae",
+          "asianSides": "Rice"
+        },
+        "wednesday": {
+          "chefsFeature": "Pesto Chicken Cacciatore Style, Spaghetti",
+          "chefsFeatureSides": "Fresh Tomatoes with Basil & Balsamic, Breadsticks, Carrot Osso Buco",
+          "global": "Khoresh Karafs (Celery Stew with Beef)",
+          "globalSides": "Persian Rice, Pita",
+          "southAsian": "Lentil Tangine, Palak Chole, Halal Chicken",
+          "southAsianSides": "Naan, Rice",
+          "asian": "Beef Udon Noodle Stir-fry, Vegetable Udon",
+          "asianSides": "Bok Choy"
+        },
+        "thursday": {
+          "chefsFeature": "Pineapple & Sugar Glazed Ham, Spinach Canneloni",
+          "chefsFeatureSides": "Scalloped Potatoes, Green Peas",
+          "global": "Sayadieh (Rice with Spiced Fish)",
+          "globalSides": "Tahini Dressing, Sumac-Onion Salad",
+          "southAsian": "Chili Chicken, Kootu, Vegetable Curry",
+          "southAsianSides": "Rice",
+          "asian": "Shoyu Ramen Bar with Chicken Karaage, Soy Egg, Nori",
+          "asianSides": "Condiments"
+        },
+        "friday": {
+          "chefsFeature": "Chicken A La King, Mushroom A La King",
+          "chefsFeatureSides": "Biscuit, Mixed Vegetable Medley, Rice",
+          "global": "Romanian Pork & Potato Stew",
+          "globalSides": "Rice, Dinner Rolls",
+          "southAsian": "Red Curry Pork, Roasted Curry Tofu",
+          "southAsianSides": "Rice",
+          "asian": "Chaat Bar"
+        }
+      }
+    }
+  ]
+}
