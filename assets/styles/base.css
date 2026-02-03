@@ -65,15 +65,29 @@ body {
 body::after {
     content: '';
     position: absolute;
+    z-index: -1;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     pointer-events: none;
-    border-radius: 50%;
-    box-shadow: 0 0 100px 100vmax #fddde67a;
-    filter: blur(100px);
-    z-index: -1;
+    opacity: 0.2;  /* is ts subtle enough  */
+    background: linear-gradient(
+        to bottom,
+        #5BCEFA 0%,
+        /* #F5A9B8 20%, */
+        #ffffff 50%,
+        #F5A9B8 100%
+        /* #5BCEFA 100% */
+    );
+    mask-image: radial-gradient(
+        ellipse at center,
+        transparent 0%,
+        transparent 30%,
+        rgba(0, 0, 0, 0.3) 50%,
+        rgba(0, 0, 0, 0.7) 70%,
+        black 100%
+    );
 }
 
 .main {
